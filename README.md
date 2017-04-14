@@ -1,2 +1,4 @@
-# test
-test
+# 带相框的自定义照相机
+实现思路为使用frameLayout在surfaceview上加一个view设置background(此背景即为相框 可以提换为自己的)
+在保存照片时使用Canvas将照片和相框合成
+
