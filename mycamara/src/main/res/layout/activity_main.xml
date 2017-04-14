@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mycamara.ui.com.mycamara.view.CameraSurfaceView
+        android:id="@+id/cameraSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/frame">
+
+    </View>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topBtton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_bg">
+
+            <ImageButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+
+                android:layout_marginLeft="10.0dip"
+                android:background="@drawable/bg_touch_highlight_white"
+                android:src="@drawable/btn_view_back" />
+
+            <ImageButton
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/bg_touch_highlight_white"
+                android:src="@drawable/btn_view_ok" />
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/takePic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+
+
+            android:background="@drawable/bg_touch_highlight_white"
+            android:src="@drawable/btn_view_back" />
+
+    </RelativeLayout>
+</FrameLayout>
+
